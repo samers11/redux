@@ -1,5 +1,6 @@
 import React from 'react';
-import actions from '../actions/index'
+import {selectSong} from '../actions/index';
+import actions, { selectSong } from '../actions/index'
 
 const App = () => {
   return (
@@ -7,3 +8,4 @@ const App = () => {
   )
 };
 export default App;
+
